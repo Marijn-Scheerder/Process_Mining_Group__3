@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="1" />
+		<event>
+			<string key="org:resource" value="User1" />
+			<string key="concept:name" value="Start Process" />
+			<date key="time:timestamp" value="2024-10-30T14:37:41.872577" />
+		</event>
+		<event>
+			<string key="org:resource" value="User2" />
+			<string key="concept:name" value="Check Invoice" />
+			<date key="time:timestamp" value="2024-10-30T15:37:41.872582" />
+		</event>
+		<event>
+			<string key="org:resource" value="User3" />
+			<string key="concept:name" value="Approve Invoice" />
+			<date key="time:timestamp" value="2024-10-30T16:37:41.872589" />
+		</event>
+		<event>
+			<string key="org:resource" value="User4" />
+			<string key="concept:name" value="Check Request" />
+			<date key="time:timestamp" value="2024-10-30T17:37:41.872589" />
+		</event>
+		<event>
+			<string key="org:resource" value="User4" />
+			<string key="concept:name" value="Approve Request" />
+			<date key="time:timestamp" value="2024-10-30T18:37:41.872589" />
+		</event>
+		<event>
+			<string key="org:resource" value="User1" />
+			<string key="concept:name" value="End Process" />
+			<date key="time:timestamp" value="2024-10-30T19:37:41.872589" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2" />
+		<event>
+			<string key="org:resource" value="User1" />
+			<string key="concept:name" value="Start Process" />
+			<date key="time:timestamp" value="2024-10-30T14:37:41.872591" />
+		</event>
+		<event>
+			<string key="org:resource" value="User4" />
+			<string key="concept:name" value="Check Request" />
+			<date key="time:timestamp" value="2024-10-30T15:37:41.872591" />
+		</event>
+		<event>
+			<string key="org:resource" value="User4" />
+			<string key="concept:name" value="Approve Request" />
+			<date key="time:timestamp" value="2024-10-30T16:37:41.872593" />
+		</event>
+		<event>
+			<string key="org:resource" value="User2" />
+			<string key="concept:name" value="Check Invoice" />
+			<date key="time:timestamp" value="2024-10-30T17:37:41.872594" />
+		</event>
+		<event>
+			<string key="org:resource" value="User3" />
+			<string key="concept:name" value="Approve Invoice" />
+			<date key="time:timestamp" value="2024-10-30T18:37:41.872594" />
+		</event>
+		<event>
+			<string key="org:resource" value="User1" />
+			<string key="concept:name" value="End Process" />
+			<date key="time:timestamp" value="2024-10-30T19:37:41.872594" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3" />
+		<event>
+			<string key="org:resource" value="User1" />
+			<string key="concept:name" value="Start Process" />
+			<date key="time:timestamp" value="2024-10-30T14:37:41.872577" />
+		</event>
+		<event>
+			<string key="org:resource" value="User2" />
+			<string key="concept:name" value="Check Invoice" />
+			<date key="time:timestamp" value="2024-10-30T15:37:41.872582" />
+		</event>
+		<event>
+			<string key="org:resource" value="User4" />
+			<string key="concept:name" value="Check Request" />
+			<date key="time:timestamp" value="2024-10-30T16:37:41.872589" />
+		</event>
+		<event>
+			<string key="org:resource" value="User3" />
+			<string key="concept:name" value="Approve Invoice" />
+			<date key="time:timestamp" value="2024-10-30T17:37:41.872589" />
+		</event>
+		<event>
+			<string key="org:resource" value="User4" />
+			<string key="concept:name" value="Approve Request" />
+			<date key="time:timestamp" value="2024-10-30T18:37:41.872589" />
+		</event>
+		<event>
+			<string key="org:resource" value="User1" />
+			<string key="concept:name" value="End Process" />
+			<date key="time:timestamp" value="2024-10-30T19:37:41.872589" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4" />
+		<event>
+			<string key="org:resource" value="User1" />
+			<string key="concept:name" value="Start Process" />
+			<date key="time:timestamp" value="2024-10-30T14:37:41.872591" />
+		</event>
+		<event>
+			<string key="org:resource" value="User4" />
+			<string key="concept:name" value="Check Request" />
+			<date key="time:timestamp" value="2024-10-30T15:37:41.872591" />
+		</event>
+		<event>
+			<string key="org:resource" value="User2" />
+			<string key="concept:name" value="Check Invoice" />
+			<date key="time:timestamp" value="2024-10-30T16:37:41.872593" />
+		</event>
+		<event>
+			<string key="org:resource" value="User4" />
+			<string key="concept:name" value="Approve Request" />
+			<date key="time:timestamp" value="2024-10-30T17:37:41.872594" />
+		</event>
+		<event>
+			<string key="org:resource" value="User3" />
+			<string key="concept:name" value="Approve Invoice" />
+			<date key="time:timestamp" value="2024-10-30T18:37:41.872594" />
+		</event>
+		<event>
+			<string key="org:resource" value="User1" />
+			<string key="concept:name" value="End Process" />
+			<date key="time:timestamp" value="2024-10-30T19:37:41.872594" />
+		</event>
+	</trace>
+</log>
